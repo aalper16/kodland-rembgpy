@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(130deg,#fff,#f8b500);
+    /* Geçişin şekli (circle), renkleri belirler */
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.title {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+}
+
+.alter_title {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+}
+
+.upload_button {
+    margin-left: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+    color: black;
+}
+
+.upload_button:hover {
+    cursor:pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot {
+    display: inline-block;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+.foot2 {
+    margin-left: 1150px;
+    display: inline-block;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.ngroklogo {   
+    margin-bottom: -20px;
+    margin-left:15px;
+    display: inline-block;
+}

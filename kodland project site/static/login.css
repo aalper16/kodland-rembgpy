@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(130deg,#fff,#f8b500);
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ekranın tamamını kaplamak için */
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Courier New', monospace;
+}
+
+
+.container {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    transition: background-color 0.6s ease-in-out;
+    color: black;
+    border-radius: 30px;
+    width:50%;
+    height: 65%;
+    font-family: 'Courier New', monospace;
+    flex-direction: column;
+    display:flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container form {
+    margin-top: 20px;
+}
+
+.container form input {
+    font-size: 30px;
+    border-color: None;
+}
+.usrname:focus {
+    border-color: #f8b500;
+}
+.passwd:focus {
+    border-color: #f8b500;
+}
+
+.container form button {
+    font-size: 30px;
+}
+.container button {
+    font-size: 30px;
+}
+
+.container form label {
+    font-size: 30px;
+}
+
+
+.container form input:hover {
+    font-size: 32px;
+}

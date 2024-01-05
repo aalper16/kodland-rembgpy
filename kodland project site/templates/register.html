@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rembgpy | kodland</title>
+    <link rel="stylesheet" href="../static/register.css">
+</head>
+<body>
+    <span class="container">
+        <h1>Kullanıcı kimliğinizi belirleyin:</h1>
+        <form method="post" action="{{ url_for('create_acc') }}">
+             <label for="username">KULLANICI ADI</label>
+             <br>
+             <input type="text" name="username" required placeholder="KULLANICI ADI">
+             <br>
+             <br>
+             <label for="password">ŞİFRE</label>
+             <br>
+             <input type="password" name="password" required placeholder="ŞİFRE">
+             <br>
+             <br>
+             <label for="email">E-POSTA</label>
+             <br>
+             <input type="text" name="email" required placeholder="E-POSTA">
+             <br>
+             <br>
+             <button type="submit">KAYIT OL</button>
+        </form>
+
+    </span>
+    
+</body>
+</html>

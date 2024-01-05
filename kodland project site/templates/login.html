@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rembgpy | kodland</title>
+    <link rel="stylesheet" href="../static/login.css">
+</head>
+<body>
+    <span class="container">
+        <h1>Kullanıcı kimliğinizi girin:</h1>
+        <form method="post" action="{{ url_for('check_acc') }}">
+             <label for="username">KULLANICI ADI</label>
+             <br>
+             <input type="text" name="username" required placeholder="KULLANICI ADI" class="usrname">
+             <br>
+             <br>
+             <label for="password">ŞİFRE</label>
+             <br>
+             <input type="password" name="password" required placeholder="ŞİFRE" class="passwd">
+             <br>
+             <br>
+             <button type="submit">GİRİŞ YAP</button>
+        </form>
+             <br>
+             <a href='register'><button class="reg">Hesabın yok mu? Kayıt ol.</button></a>
+             <br>
+             <a href="forgot_password"><button>Şifremi unuttum.</button></a>
+        
+
+        
+    </span>
+    
+</body>
+</html>
